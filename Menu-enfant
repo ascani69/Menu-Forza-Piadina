@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forza Piadina Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .section-title {
+            border-bottom: 2px solid #0779e4;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            margin-bottom: 15px;
+        }
+        .menu-item h3 {
+            margin: 0;
+        }
+        .menu-item p {
+            margin: 5px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Forza Piadina</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="starters">
+            <h2 class="section-title">Starters</h2>
+            <div class="menu-item">
+                <h3>Hummus</h3>
+                <p>€9.00 - With pesto and pine nuts</p>
+            </div>
+            <div class="menu-item">
+                <h3>Gazpacho and Burrata</h3>
+                <p>€11.50 - Cherry tomatoes, basil olive oil, pistachios</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cocotte Egg</h3>
+                <p>€10.50 - Piperade with Espelette pepper, spicy schiacciata</p>
+            </div>
+            <div class="menu-item">
+                <h3>Artichoke Carpaccio</h3>
+                <p>€11.00 - Grana Padano shavings, shrimp, strawberry basil vinaigrette</p>
+            </div>
+            <div class="menu-item">
+                <h3>Octopus Bruschetta</h3>
+                <p>€12.00 - Cream cheese, arugula, confit tomatoes, octopus, chimichurri sauce, sesame</p>
+            </div>
+            <div class="menu-item">
+                <h3>Tuna Tataki</h3>
+                <p>€12.00 - Ponzu sauce and crispy zucchini</p>
+            </div>
+        </section>
+
+        <section id="salads">
+            <h2 class="section-title">Salads</h2>
+            <div class="menu-item">
+                <h3>Caesar</h3>
+                <p>€15.50 - Crispy chicken, fried onions, croutons, Grana Padano shavings, Caesar sauce with or without guanciale</p>
+            </div>
+            <div class="menu-item">
+                <h3>Puglia</h3>
+                <p>€15.50 - Two tomatoes, Taggiasca olives, artichokes, Burrata, pesto, pine nuts, and pistachios</p>
+            </div>
+            <div class="menu-item">
+                <h3>Thai</h3>
+                <p>€15.50 - Beef or tuna tataki, fried onions, mushrooms, carrots, cucumber, and Thai sauce</p>
+            </div>
+        </section>
+
+        <section id="puccias">
+            <h2 class="section-title">Puccias</h2>
+            <div class="menu-item">
+                <h3>PucBeef</h3>
+                <p>€16.00 - Honey mustard sauce, confit beef cheek, mushrooms, and mozzarella</p>
+            </div>
+            <div class="menu-item">
+                <h3>PucCorsica</h3>
+                <p>€16.00 - Brucciu pesto, confit tomatoes, lonzu, and tome</p>
+            </div>
+        </section>
+
+        <section id="piadinas">
+            <h2 class="section-title">Piadinas</h2>
+            <div class="menu-item">
+                <h3>Carbonara</h3>
+                <p>€15.00 - Guanciale, Grana Padano shavings, egg yolk, and mozzarella</p>
+            </div>
+            <div class="menu-item">
+                <h3>Regina</h3>
+                <p>€14.50 - Tomato sauce, herb ham, mushrooms, olives, and mozzarella</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pommeflette</h3>
+                <p>€14.50 - Walnut sauce, roasted apples, confit onions, Taleggio, and honey</p>
+            </div>
+            <div class="menu-item">
+                <h3>Melanzane</h3>
+                <p>€14.50 - Red pesto, tomatoes, Grana Padano shavings, grilled eggplants, and mozzarella</p>
+            </div>
+            <div class="menu-item">
+                <h3>Crousty</h3>
+                <p>€16.00 - Chimichurri cream, tomatoes, salad, crispy chicken, and mozzarella</p>
+            </div>
+            <div class="menu-item">
+                <h3>Truffata</h3>
+                <p>€19.00 - Truffle cream, truffle ham, mushrooms, truffle slices, and mozzarella</p>
+            </div>
+            <div class="menu-item">
+                <h3>Ban Xeo</h3>
+                <p>€16.50 - Ginger pesto, carrots, mushrooms, fried onions, beef or tuna tataki, and Thai sauce</p>
+            </div>
+            <div class="menu-item">
+                <h3>Tacos</h3>
+                <p>€16.00 - Salsa sauce, piperade, pulled chicken, cheddar</p>
+            </div>
+            <div class="menu-item">
+                <h3>Burratina</h3>
+                <p>€14.50 - Cream cheese, arugula, trio of confit tomatoes, burrata, pesto, pine nuts</p>
+            </div>
+        </section>
+
+        <section id="desserts">
+            <h2 class="section-title">Desserts</h2>
+            <div class="menu-item">
+                <h3>Piadina alla Nocciolata</h3>
+                <p>€8.00 - Piadina alla Nocciolata with or without banana</p>
+            </div>
+            <div class="menu-item">
+                <h3>Tiramisu</h3>
+                <p>€8.50 - Tiramisu slice with Amaretto</p>
+            </div>
+            <div class="menu-item">
+                <h3>Mini-Babas</h3>
+                <p>€9.00 - Mini-babas with Limoncello and whipped cream</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chocolate Fondant</h3>
+                <p>€10.00 - Chocolate fondant, salted caramel yogurt ice cream, and cookie crumbs</p>
+            </div>
+            <div class="menu-item">
+                <h3>Sicilian Pastries</h3>
+                <p>€9.50 - Assortment of Sicilian pastries</p>
+            </div>
+            <div class="menu-item">
+                <h3>Gourmet Coffee</h3>
+                <p>€9.00 - Gourmet coffee or tea (+€1.50)</p>
+            </div>
+            <div class="menu-item">
+                <h3>Lemon Sorbet</h3>
+                <p>€9.00 - Lemon basil sorbet with Limoncello</p>
+            </div>
+            <div class="menu-item
